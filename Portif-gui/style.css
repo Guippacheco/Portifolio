@@ -1,0 +1,93 @@
+
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        margin: 0;
+        font-family: 'Fjalla One', 
+sans-serif;
+    } /* Coloquei a fonte Fjalla*/
+
+
+
+
+
+.topMenu{
+    display: flex;
+    background-color:rgb(125, 219, 251);
+    margin: 0; 
+    }  /* tentei deixar meu menu principal mais responsivo*/
+.topMenu li{
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+.topMenu li :first-child{
+    margin-right:auto;
+    
+}
+.estilo1{
+    display: flex;
+    height: 40vh;
+    background-color:rgb(182, 213, 205);
+
+}
+.centralize{
+    margin: auto;
+    text-align:center;
+
+}
+.estilo2{
+    display: flex;
+    background-color:#b0d7e1;
+
+
+} /* dei o nome de esstilo e enumerei para diferenciar cada seção do site*/
+ 
+.estilo3{
+    display: flex;
+    background-color:white;
+
+}
+
+.imagem{
+    width: 30vw;
+    height: 30vw;
+    padding-left: 15px;
+}
+
+.botão-black{background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+
+
+}
+
+
+
+footer{
+    background-color:rgb(125, 219, 251);
+    display: flex;
+    padding: 15px;
+    color:white
+    } /* usei o footer para fazer o roda pé */
+
+
+.BaseMenu{
+    display: flex;
+    background-color:rgb(125, 219, 251);
+    margin: 0;
+}
+
+.BaseMenu li { 
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 2vh;
+    
+}
+
+.BaseMenu li :first-child{ margin-right: 
+auto;}
